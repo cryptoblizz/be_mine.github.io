@@ -14,7 +14,7 @@ document.getElementById('valentineButton').addEventListener('click', function() 
 function addFlowers() {
     const container = document.querySelector('.container');
     const flowerImg = document.createElement('img');
-    flowerImg.src = 'flowers.png'; // Relative link to the local flower image
+    flowerImg.src = '/flowers.png'; // Relative link to the local flower image
     flowerImg.alt = 'Flower';
     flowerImg.className = 'flower';
     container.appendChild(flowerImg);
